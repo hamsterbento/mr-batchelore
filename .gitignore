@@ -1,0 +1,42 @@
+# --- OS junk ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- IDEs ------------------------------------------------------------------
+.idea/
+*.iml
+out/
+.vscode/
+
+# --- Gradle ----------------------------------------------------------------
+.gradle/
+build/
+
+# Keep the wrapper!
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!/gradlew
+!/gradlew.bat
+
+# --- Kotlin/JS: Node/Yarn/Webpack artifacts --------------------------------
+node/
+node_modules/
+.yarn/
+.yarnrc.yml
+.pnp.*
+.cache/                 # webpack cache (if created)
+
+# Logs from npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Generated package metadata (when letting Kotlin/JS manage Node) -------
+# Remove these ignores if you later manage npm/yarn yourself.
+package.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Test/coverage (if you enable Karma/coverage later) --------------------
+coverage/
